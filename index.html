@@ -15,14 +15,15 @@
 				width: 100px;
 				height: auto;
 				margin: 0 15px 0 0;
+				margin-bottom: -7px;
+			}
+
+			.panel-body img:hover {
+				position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
 			}
 
 			.media-body {
 				font-size: 15px;
-			}
-
-			img.media-object {
-				position: relative;
 			}
 		</style>
 
@@ -35,166 +36,391 @@
 	  			<h1>Drinklista <small>för 75års-festen!</small></h1>
 			</div>
 
+			<div class="row">
+				<div class="col-md-4">
+
+					<h4>Highball <br/><small>Drinkar serverade i höga glas som ger rum för mycket av många ingredienser.</small></h4>
+
+					<div class="panel-group" id="accordionHighball" role="tablist" aria-multiselectable="true">
+
+						<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingTwo">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionHighball" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          						Blue Lagoon/Isbjörn
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseTwo" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingTwo">
+		      					<div class="panel-body">
+
+									<img data-action="zoom" class="media-object" align="left" src="images/bluelagoon.png" title="Blue Lagoon" >
+
+									<h4 class="media-heading">Blue Lagoon/Isbjörn <br/><small>Vodka, Bols Blå, Sprite</small></h4>
+									<p>Blue Lagoon (eller Isbjörn som vissa kallar drinken) är en riktig partydrink med en härlig kombination av sötma och sprudlande syrlighet. Den härligt utsökta blåa nyansen lämpar sig väl i sitt longdrinkglas och såväl färg som utformning gör det till en utmärkt drink att hålla i handen såväl på dansgolvet som i baren.</p>
+
+		      					</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingFour">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionHighball" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+		          						Cuba Libre
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseFour" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingFour">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/cubalibre.png" title="Cuba Libre">
+									    
+									<h4 class="media-heading">Cuba Libre <br/><small>Mörk rom, Cola, (Citron/Lime)</small></h4>
+									<p>Cuba Libre har vid mer än ett tillfälle erhållit nöjet att benämnas med epitet "Världens mest populära drink". Bakom de idag relativt simpla ingredienserna ligger en story väl värd att nämna. ...Men som inte ska nämnas idag!
+									</p>
+
+		      					</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingEighth">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionHighball" href="#collapseEighth" aria-expanded="false" aria-controls="collapseEighth">
+		          						GT
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseEighth" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingEighth">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/GT.png" title="GT">
+									    
+									<h4 class="media-heading">GT <br/><small>Gin, Tonic, (Citron)</small></h4>
+									<p>GT, eller Gin och Tonic som det fullständiga namnet lyder, har växt sig till en riktigt klassiker. För många är en Gin och Tonic den första kontakten med gin, som med sin speciella envishet är lite svår för vissa att skapa en riktigt bra kontakt med.
+									</p>
+
+		      					</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingTen">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionHighball" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+		          						Lennart
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseTen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingTen">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/lennart.png" title="Lennart">
+									  	
+									<h4 class="media-heading">Lennart <br/><small>Xanté (Päronlikör), Limejuice, Sprite</small></h4>
+									<p>Lennart är en trevlig svensk klassiker till drink som smakar finemang. PIGGELIN!</p>
+								</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingEleven">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionHighball" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+		          						Lynchburg Lemonade
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseEleven" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingEleven">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/lynchburglemonade.png" title="Lynchburg Lemonade">
+									  	
+									<h4 class="media-heading">Lynchburg Lemonade <br/><small>Bourbon, Triple Sec, Sockerlag, Citronjuice, Sprite</small></h4>
+									<p></p>
+
+		      					</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingThirteen">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionHighball" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+		          						Mojito
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseThirteen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingThirteen">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/mojito.png" title="Mojito">
+									  	
+									<h4 class="media-heading">Mojito <br/><small>Ljus rom, Sockerlag, Limejuice, Sodavatten</small></h4>
+									<p>
+									    	Mojito föddes som drink på Kuba under 1900-talets begynnande sekel, antagligen på den berömda baren La Bodeguita del Medio i Havanna. Här avnjöt den välkände författaren Ernest Hemingway, som stamkund, allra helst sin Mojito - och marknadsförde den med hjälp av sina romaner.</p>
+		      					</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingFourteen">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionHighball" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+		          						Piña Colada
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseFourteen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingFourteen">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/pinacolada.png" title="Piña Colada">
+									  	
+									<h4 class="media-heading">Piña Colada <br/><small>Ljus Rom, Malibu (Kokoslikör), Mjölk, Ananasjuice</small></h4>
+									<p>
+									    	Piña Colada är en riktigt klassisk exotisk drink, som bäst avnjutes med lite stämningsfull Markoolioo-musik i bakgruden. Eller kanske inte. I vilket fall som helst så är det ju i det närmaste givet att man ska garnerna sin Piña Colada med en ananasskiva, inte sant!?</p>
+		      					</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingFifteen">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionHighball" href="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+		          						P2
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseFifteen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingFifteen">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/mojito.png" title="P2">
+									  	
+									<h4 class="media-heading">P2 <br/><small>Apple Sourz, Vaniljvodka, Limejuice, Sprite</small></h4>
+									<p>
+									    	Drinken P2 blev snabbt väldigt populär när den introducerades i samband med att vaniljvodkan och Sourz Sour Apple gjorde entré i barer runt om i landet. Sourz-familjen har dock växt allt eftersom och detta har gett utrymme för ett antal nya varianter tillsammans med vaniljvodkan.</p>
+		      					</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingSixteen">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionHighball" href="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+		          						Sex on the Beach
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseSixteen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingSixteen">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/sexonthebeach.png" title="Sex on the Beach">
+									  	
+									<h4 class="media-heading">Sex on the Beach <br/><small>Vodka, Persikolikör, Tranbärsjuice, Apelsinjuice</small></h4>
+									<p>
+									    	Sex on the Beach, alkoholbaserad drink, karaktäriseras av sin söta fruktsmak.</p>
+		      					</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingSeventeen">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionHighball" href="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+		          						Tequila Sunrise
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseSeventeen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingSeventeen">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/tequilasunrise.png" title="Tequila Sunrise">
+									  	
+									<h4 class="media-heading">Tequila Sunrise <br/><small>Tequila, Apelsinjuice, Grenadine</small></h4>
+									<p>
+									    	Tequila Sunrise är något av en standarddrink för tequilan. Förmodligen inte det mest exalterande du kan veva ihop, men å andra sidan inget bottennapp heller.
+									    	</p>
+
+		      					</div>
+		    				</div>
+		  				</div>
+
+					</div>
+
+				</div>
+				<div class="col-md-4">
+
+					<h4>Lowball <br/><small>Drinkar serverade i låga glas, oftast något alkoholstarkare än highball.</small></h4>
+
+					<div class="panel-group" id="accordionLowball" role="tablist" aria-multiselectable="true">
+
+						<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingOne">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionLowball" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		          						Amaretto Sour 
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseOne" class="panel-collapse collapse collapsed" role="tabpanel" aria-labelledby="headingOne">
+		      					<div class="panel-body">
+
+									<img data-action="zoom" class="media-object" align="left" class="small" src="images/amarettosour.png" title="Amaretto Sour">
+									 
+									<h4 class="media-heading">Amaretto Sour <br/><small>Amaretto, Sockerlag, Citron, Äggvita</small></h4>
+									<p>Amaretto Sour är en drink som tillhör den så kallade sour-familjen, precis såsom Gin Sour med flera. I det här fallet är spritbasen alltså den smakrika Amaretton som ger drinken en unik smakkaraktär. Passar utmärkt som en ny smakupplevelse för den som har tröttnat på söta drinkar och allt vad de heter.</p>
+									  	
+		      					</div>
+		    				</div>
+		  				</div>
+						<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingSix">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionLowball" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+		          						Denlert
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseSix" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingSix">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/denlert.png" title="Denlert">
+									    
+									<h4 class="media-heading">Denlert <br/><small>Bourbon, Amaretto, Apple Sourz, Limejuice, Äggvita, Äppeljuice</small></h4>
+									<p>Jaa du, den är god.
+									</p>
+
+		      					</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingEight">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionLowball" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+		          						GT
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseEight" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingEight">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/GT.png" title="GT">
+									    
+									<h4 class="media-heading">GT <br/><small>Gin, Tonic, (Citron)</small></h4>
+									<p>GT, eller Gin och Tonic som det fullständiga namnet lyder, har växt sig till en riktigt klassiker. För många är en Gin och Tonic den första kontakten med gin, som med sin speciella envishet är lite svår för vissa att skapa en riktigt bra kontakt med.
+									</p>
+
+		      					</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingEighteen">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionLowball" href="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
+		          						White Russian
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseEighteen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingEighteen">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/whiterussian.png" title="White Russian">
+									  	
+									<h4 class="media-heading">White Russian <br/><small>Vodka, Kahlua, Mjölk</small></h4>
+									<p>
+									    	White Russian är ett syskon till drinken Black Russian, där skillnaden i princip ligger i att vi fyllt upp med mjölk. Drinkreceptet är inte tradionellt ryskt på något vis. Namnet härstammar ifrån vodkan som är drinkens huvudingrediens. Exakt ursprung har varit svårt att hitta, men det har återfunnits bevis på att utrycket användes som en benämning för en cocktail i en amerikansk tidning 1965. Det har även påståts att drinken introducerades som en efterrättscocktail för män efter första världskriget.
+									</p>
+		      					</div>
+		    				</div>
+		  				</div>
+
+					</div>
+
+				</div>
+				<div class="col-md-4">
+
+					<h4>Cocktail <br/><small>Drinkar serverade i cocktail-glas, mycket alkoholstarka.</small></h4>
+
+					<div class="panel-group" id="accordionCocktail" role="tablist" aria-multiselectable="true">
+
+						<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingThree">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionCocktail" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		          						Cosmopolitan
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseThree" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingThree">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/cosmopolitan.png" title="Cosmopolitan">
+									<h4 class="media-heading">Cosmopolitan <br/><small>Citronvodka, Cointreau, Tranbärsjuice</small></h4>
+									<p>Cosmopolitan är en riktigt modern klassiker som skapades under 90-talet i New York. Cosmon, som den inte sällan benämns, har fått mycket gratis marknadsföring i och med sin frekventa medverkan i TV-serien Sex and the City.</p>
+
+		      					</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingFive">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionCocktail" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+		          						Daiquiri
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseFive" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingFive">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/daiquiri.png" title="Daiquiri">
+									  	
+									<h4 class="media-heading">Daiquiri <br/><small>Ljus rom, Sockerlag, Limejuice</small></h4>
+									<p>Ursprungligen var Daiquiri en longdrink som blandades av den amerikanske gruvingenjören Jennings Cox i orten Daiquiri på Kuba. Ingredienserna bestod då av kokande vatten, rom och limejuice. Drinken importerades till USA, och the Army and Navy Club i Washington, av amiralen Lucius Johnson. Sedan dess har spridningen fortlöpt i ett högt tempo, och även en viss förändring av receptet har som bekant skett.
+									</p>
+
+		      					</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingSeven">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionCocktail" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+		          						Grasshopper
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseSeven" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingSeven">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/grasshopper.png" title="Grasshopper">
+									  	
+									<h4 class="media-heading">Grasshopper <br/><small>Creme de Menthe, Cacao White, Mjölk</small></h4>
+									<p>Gräshoppor är ofta stora skadegörare. Gäller det även för denna söta gräddrink?
+									</p>
+
+		      					</div>
+		    				</div>
+		  				</div>
+		  				<div class="panel panel-default">
+		    				<div class="panel-heading" role="tab" id="headingTwelve">
+		      					<h4 class="panel-title">
+		        					<a data-toggle="collapse" data-parent="#accordionCocktail" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+		          						Margarita
+		        					</a>
+		      					</h4>
+		    				</div>
+		    				<div id="collapseTwelve" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingTwelve">
+		      					<div class="panel-body">
+		        					    	
+									<img data-action="zoom" class="media-object" align="left" src="images/margarita.png" title="Margarita">
+									  	
+									<h4 class="media-heading">Margarita <br/><small>Tequila, Cointreau, Limejuice</small></h4>
+									<p>
+									    	Margarita, med saltad glaskant, är en av världens mest kända drinkar och förekommer i ett stort antal varianter. Ursprungligen tillredd på lika delar tequila, likör och juice.</p>
+
+		      					</div>
+		    				</div>
+		  				</div>
+
+					</div>
+
+				</div>
+			</div>
+
 
 			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingOne">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          						Amaretto Sour 
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseOne" class="panel-collapse collapse collapsed" role="tabpanel" aria-labelledby="headingOne">
-      					<div class="panel-body">
-
-							<img data-action="zoom" class="media-object" align="left" class="small" src="images/amarettosour.png" title="Amaretto Sour">
-							 
-							<h4 class="media-heading">Amaretto Sour <br/><small>Amaretto, Sockerlag, Citron, Äggvita</small></h4>
-							<p>Amaretto Sour är en drink som tillhör den så kallade sour-familjen, precis såsom Gin Sour med flera. I det här fallet är spritbasen alltså den smakrika Amaretton som ger drinken en unik smakkaraktär. Passar utmärkt som en ny smakupplevelse för den som har tröttnat på söta drinkar och allt vad de heter.</p>
-							  	
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingTwo">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          						Blue Lagoon/Isbjörn
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseTwo" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingTwo">
-      					<div class="panel-body">
-
-							<img data-action="zoom" class="media-object" align="left" src="images/bluelagoon.png" title="Blue Lagoon" >
-
-							<h4 class="media-heading">Blue Lagoon/Isbjörn <br/><small>Vodka, Bols Blå, Sprite</small></h4>
-							<p>Blue Lagoon (eller Isbjörn som vissa kallar drinken) är en riktig partydrink med en härlig kombination av sötma och sprudlande syrlighet. Den härligt utsökta blåa nyansen lämpar sig väl i sitt longdrinkglas och såväl färg som utformning gör det till en utmärkt drink att hålla i handen såväl på dansgolvet som i baren.</p>
-
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingThree">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          						Cosmopolitan
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseThree" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingThree">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/cosmopolitan.png" title="Cosmopolitan">
-							<h4 class="media-heading">Cosmopolitan <br/><small>Citronvodka, Cointreau, Tranbärsjuice</small></h4>
-							<p>Cosmopolitan är en riktigt modern klassiker som skapades under 90-talet i New York. Cosmon, som den inte sällan benämns, har fått mycket gratis marknadsföring i och med sin frekventa medverkan i TV-serien Sex and the City.</p>
-
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingFour">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          						Cuba Libre
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseFour" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingFour">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/cubalibre.png" title="Cuba Libre">
-							    
-							<h4 class="media-heading">Cuba Libre <br/><small>Mörk rom, Cola, (Citron/Lime)</small></h4>
-							<p>Cuba Libre har vid mer än ett tillfälle erhållit nöjet att benämnas med epitet "Världens mest populära drink". Bakom de idag relativt simpla ingredienserna ligger en story väl värd att nämna. Vi befinner oss på Kuba, under det Spansk-Amerikanska kriget vid sekelskiftet. En grupp permitterade soldater tillhörande de amerikanska signaltrupperna har samlats vid en bar i Old Havanna. Ganska snart anländer en kapten till baren och beställer en drink bestående av rom och cola med is och en limeklyfta. Intresset för drinken väcks hos de övriga soldaterna, då kaptenen nöjt inmundigar sin nykomponerade drink - och ganska snart får bartendern snabbt vaska fram en ny omgång av kaptenens uppfinning till de övriga.
-
-							I samband med att ännu en omgång anländer till borden föreslår en av soldaterna att man gemensamt skall skåla "Por Cuba Libre" - för att fira det nyligen befriade Kuba. Kaptenen nappar på förslaget och ropar ut "Cuba Libre" varpå samtliga unisont svarar upp med "Cuba Libre" och glasen höjs. Drinken Cuba Libre är född.
-							</p>
-
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingFive">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-          						Daiquiri
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseFive" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingFive">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/daiquiri.png" title="Daiquiri">
-							  	
-							<h4 class="media-heading">Daiquiri <br/><small>Ljus rom, Sockerlag, Limejuice</small></h4>
-							<p>Ursprungligen var Daiquiri en longdrink som blandades av den amerikanske gruvingenjören Jennings Cox i orten Daiquiri på Kuba. Ingredienserna bestod då av kokande vatten, rom och limejuice. Drinken importerades till USA, och the Army and Navy Club i Washington, av amiralen Lucius Johnson. Sedan dess har spridningen fortlöpt i ett högt tempo, och även en viss förändring av receptet har som bekant skett.
-							</p>
-
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingSix">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-          						Denlert
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseSix" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingSix">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/denlert.png" title="Denlert">
-							    
-							<h4 class="media-heading">Denlert <br/><small>Bourbon, Amaretto, Apple Sourz, Limejuice, Äggvita, Äppeljuice</small></h4>
-							<p>Jaa du, den är god.
-							</p>
-
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingSeven">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-          						Grasshopper
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseSeven" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingSeven">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/grasshopper.png" title="Grasshopper">
-							  	
-							<h4 class="media-heading">Grasshopper <br/><small>Creme de Menthe, Cacao White, Mjölk</small></h4>
-							<p>Gräshoppor är ofta stora skadegörare. Gäller det även för denna söta gräddrink?
-							</p>
-
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingEight">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-          						GT
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseEight" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingEight">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/GT.png" title="GT">
-							    
-							<h4 class="media-heading">GT <br/><small>Gin, Tonic, (Citron)</small></h4>
-							<p>GT, eller Gin och Tonic som det fullständiga namnet lyder, har växt sig till en riktigt klassiker. För många är en Gin och Tonic den första kontakten med gin, som med sin speciella envishet är lite svår för vissa att skapa en riktigt bra kontakt med.
-							</p>
-
-      					</div>
-    				</div>
-  				</div>
   				<div class="panel panel-default">
     				<div class="panel-heading" role="tab" id="headingNine">
       					<h4 class="panel-title">
@@ -210,182 +436,8 @@
 							  	
 							<h4 class="media-heading">Irish Coffee <br/><small>Irish Whiskey, Varmt kaffe, Grädde, Brunt socker</small></h4>
 							<p>Irish Coffee, Irlands mest uppskattade bidrag till drinkvärlden, har faktiskt inte existerat speciellt länge. Tidigare användes te, men Joe Sheridan testade att använda kaffe istället och det nya drinkreceptet spred sig snabbt över världen
-							    	</p>
-
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingTen">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-          						Lennart
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseTen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingTen">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/lennart.png" title="Lennart">
-							  	
-							<h4 class="media-heading">Lennart <br/><small>Xanté (Päronlikör), Limejuice, Sprite</small></h4>
-							<p>Lennart är en trevlig svensk klassiker till drink som smakar finemang. PIGGELIN!</p>
-						</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingEleven">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-          						Lynchburg Lemonade
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseEleven" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingEleven">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/lynchburglemonade.png" title="Lynchburg Lemonade">
-							  	
-							<h4 class="media-heading">Lynchburg Lemonade <br/><small>Bourbon, Triple Sec, Sockerlag, Citronjuice, Sprite</small></h4>
-							<p></p>
-
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingTwelve">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-          						Margarita
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseTwelve" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingTwelve">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/margarita.png" title="Margarita">
-							  	
-							<h4 class="media-heading">Margarita <br/><small>Tequila, Cointreau, Limejuice</small></h4>
-							<p>
-							    	Margarita, med saltad glaskant, är en av världens mest kända drinkar och förekommer i ett stort antal varianter. Ursprungligen tillredd på lika delar tequila, likör och juice.</p>
-
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingThirteen">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-          						Mojito
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseThirteen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingThirteen">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/mojito.png" title="Mojito">
-							  	
-							<h4 class="media-heading">Mojito <br/><small>Ljus rom, Sockerlag, Limejuice, Sodavatten</small></h4>
-							<p>
-							    	Mojito föddes som drink på Kuba under 1900-talets begynnande sekel, antagligen på den berömda baren La Bodeguita del Medio i Havanna. Här avnjöt den välkände författaren Ernest Hemingway, som stamkund, allra helst sin Mojito - och marknadsförde den med hjälp av sina romaner.</p>
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingFourteen">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-          						Piña Colada
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseFourteen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingFourteen">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/pinacolada.png" title="Piña Colada">
-							  	
-							<h4 class="media-heading">Piña Colada <br/><small>Ljus Rom, Malibu (Kokoslikör), Mjölk, Ananasjuice</small></h4>
-							<p>
-							    	Piña Colada är en riktigt klassisk exotisk drink, som bäst avnjutes med lite stämningsfull Markoolioo-musik i bakgruden. Eller kanske inte. I vilket fall som helst så är det ju i det närmaste givet att man ska garnerna sin Piña Colada med en ananasskiva, inte sant!?</p>
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingFifteen">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
-          						P2
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseFifteen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingFifteen">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/mojito.png" title="P2">
-							  	
-							<h4 class="media-heading">P2 <br/><small>Apple Sourz, Vaniljvodka, Limejuice, Sprite</small></h4>
-							<p>
-							    	Drinken P2 blev snabbt väldigt populär när den introducerades i samband med att vaniljvodkan och Sourz Sour Apple gjorde entré i barer runt om i landet. Sourz-familjen har dock växt allt eftersom och detta har gett utrymme för ett antal nya varianter tillsammans med vaniljvodkan.</p>
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingSixteen">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-          						Sex on the Beach
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseSixteen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingSixteen">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/sexonthebeach.png" title="Sex on the Beach">
-							  	
-							<h4 class="media-heading">Sex on the Beach <br/><small>Vodka, Persikolikör, Tranbärsjuice, Apelsinjuice</small></h4>
-							<p>
-							    	Sex on the Beach, alkoholbaserad drink, karaktäriseras av sin söta fruktsmak.</p>
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingSeventeen">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
-          						Tequila Sunrise
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseSeventeen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingSeventeen">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/tequilasunrise.png" title="Tequila Sunrise">
-							  	
-							<h4 class="media-heading">Tequila Sunrise <br/><small>Tequila, Apelsinjuice, Grenadine</small></h4>
-							<p>
-							    	Tequila Sunrise är något av en standarddrink för tequilan. Förmodligen inte det mest exalterande du kan veva ihop, men å andra sidan inget bottennapp heller.
-							    	</p>
-
-      					</div>
-    				</div>
-  				</div>
-  				<div class="panel panel-default">
-    				<div class="panel-heading" role="tab" id="headingEighteen">
-      					<h4 class="panel-title">
-        					<a data-toggle="collapse" data-parent="#accordion" href="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
-          						White Russian
-        					</a>
-      					</h4>
-    				</div>
-    				<div id="collapseEighteen" class="collapse panel-collapse collapsed" role="tabpanel" aria-labelledby="headingEighteen">
-      					<div class="panel-body">
-        					    	
-							<img data-action="zoom" class="media-object" align="left" src="images/whiterussian.png" title="White Russian">
-							  	
-							<h4 class="media-heading">White Russian <br/><small>Vodka, Kahlua, Mjölk</small></h4>
-							<p>
-							    	White Russian är ett syskon till drinken Black Russian, där skillnaden i princip ligger i att vi fyllt upp med mjölk. Drinkreceptet är inte tradionellt ryskt på något vis. Namnet härstammar ifrån vodkan som är drinkens huvudingrediens. Exakt ursprung har varit svårt att hitta, men det har återfunnits bevis på att utrycket användes som en benämning för en cocktail i en amerikansk tidning 1965. Det har även påståts att drinken introducerades som en efterrättscocktail för män efter första världskriget.
 							</p>
+
       					</div>
     				</div>
   				</div>
