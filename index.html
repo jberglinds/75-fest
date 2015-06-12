@@ -43,6 +43,15 @@
 				padding-left: 0;
 				padding-right: 0;
 			}
+
+			@-webkit-keyframes blink {
+			    from {
+			        opacity: 1.0;
+			    }
+			    to {
+			        opacity: 0.0;
+			    }
+			}
 		</style>
 
 		<link href="css/zoom.css" rel="stylesheet">
@@ -52,14 +61,17 @@
 		<div class="container">
 			<div class="page-header">
 	  			<h1>Drinklista <small>för 75års-festen!</small></h1>
-	  			<p>Tryck på drinkens namn för att se mer information som innehåll och bild!</p>
+	  			<p style="-webkit-animation-name: blink;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(1.0, 0, 1.0, 1.0);
+    -webkit-animation-duration: 1s;">Tryck på drinkens namn för att se mer information som innehåll och bild!</p>
 			</div>
 
 			<div class="row">
-				<div class="col-md-3 col-xs-6"><div class="well"><h3 class="text-center">Silverbröllop<br/><small>Vodka, Bols Blå, Sprite</small></h3><img data-action="zoom" class="highlight" src="images/bluelagoon.png" title="Silverbröllop" ></div></div>
-				<div class="col-md-3 col-xs-6"><div class="well"><h3 class="text-center">Döhalvan<br/><small>Vodka, Passoa, Melonlikör, Apelsinjuice, Sprite</small></h3><img data-action="zoom" class="highlight" src="images/bluelagoon.png" title="Silverbröllop" ></div></div>
-				<div class="col-md-3 col-xs-6"><div class="well"><h3 class="text-center">Ingela<br/><small>Vodka, Bols Blå, Sprite</small></h3><img data-action="zoom" class="highlight" src="images/bluelagoon.png" title="Silverbröllop" ></div></div>
-				<div class="col-md-3 col-xs-6"><div class="well"><h3 class="text-center">Lennart<br/><small>Vodka, Bols Blå, Sprite</small></h3><img data-action="zoom" class="highlight" src="images/bluelagoon.png" title="Silverbröllop" ></div></div>
+				<div class="col-md-3 col-xs-6"><div class="well"><h3 class="text-center">Silverbröllop<br/><small>Baileys, Crème de Menthe, vodkan</small></h3><img data-action="zoom" class="highlight" src="images/silverbrollop.png" title="Silverbröllop" ></div></div>
+				<div class="col-md-3 col-xs-6"><div class="well"><h3 class="text-center">Döhalvan<br/><small>Vodka, Passoa, Melonlikör, Apelsinjuice, Sprite</small></h3><img data-action="zoom" class="highlight" src="images/dohalvan.png" title="Döhalvan" ></div></div>
+				<div class="col-md-3 col-xs-6"><div class="well"><h3 class="text-center">Ingela<br/><small>Vodka, Hallon, Mynta, Sprite</small></h3><img data-action="zoom" class="highlight" src="images/ingela.png" title="Ingela" ></div></div>
+				<div class="col-md-3 col-xs-6"><div class="well"><h3 class="text-center">Lennart<br/><small>Xanté (Päronlikör), Limejuice, Sprite</small></h3><img data-action="zoom" class="highlight" src="images/lennart.png" title="Lennart" ></div></div>
 			</div>
 
 			<div class="row">
